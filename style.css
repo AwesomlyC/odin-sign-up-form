@@ -54,3 +54,35 @@ body {
     width: 15%;
 }
 
+.site_information{
+    display: flex;
+    padding-top: 100px;
+    flex-direction: column;
+}
+/* 
+ul{
+    width: 100%;
+
+}
+ul li{
+    width: 49%;
+    display: inline-block;
+
+}
+ul li > *{
+    width: 50%;
+}
+
+ */
+
+ ul {
+    width: 100%;
+}
+ul li {
+    width: 49%;
+    display: inline-block;
+}
+
+ul li > * {
+    width: 100%;
+}

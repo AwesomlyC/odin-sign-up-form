@@ -1,0 +1,19 @@
+.main_screen{
+    display:flex;
+    justify-content: first;
+}
+
+.logo_container{
+    height:100%;
+    position: relative;
+
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+#logo{
+    position: absolute;
+}

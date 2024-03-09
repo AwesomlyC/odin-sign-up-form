@@ -17,35 +17,42 @@
     </div>
     <div class="site_information">
         <div class="info">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ornare suspendisse sed nisi lacus sed viverra tellus in. Mauris rhoncus <em>aenean</em> vel elit.</p>
+            <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started. </p>
+            <br>
             <p>You <em>know</em> you want to.</p>
+            <br>
+            
         </div>
         <div class="sign-up-form">
             <form action="#" method="post">
-                <fieldset>
+                <fieldset class="form">
+                    <hh3><b>Let's do This!</b></h3>
                     <ul>
                         <li>
                             <label>First Name: </label>
-                            <input type="text" id="first_name">
+                            <input type="text" id="first_name" placeholder="John">
                         </li>
                         <li>
                             <label for="last_name">Last Name: </label>
-                            <input type="text" id="last_name">
+                            <input type="text" id="last_name" placeholder="Doe">
                         </li>
 
                         <li>
                             <label for="email">Email: </label>
-                            <input type="email" id="email">
+                            <input type="email" id="email" placeholder="a@email.com"
+                            title="Please enter a valid email address">
                         </li>
 
                         <li>
                             <label for="phone_number">Phone Number:  </label>
-                            <input type="text" id="phone_number" pattern="">
+                            <input type="text" id="phone_number" pattern="(\d{3}-\d{3}-\d{4})|(\d{10})" 
+                            placeholder="111-222-3333" 
+                            title="Please Enter a valid phone number. Example: 111-222-3333">
                         </li>
 
                         <li>
                             <label for="password">Password: </label>
-                            <input type="password" id="password" name="password">
+                            <input type="password" id="password" name="password"    >
                         </li>
 
                         <li>
@@ -55,30 +62,10 @@
                     </ul>
                 </fieldset>
             <button type="submit">Create Account</button>
-            <p> Already have an account? <a href="#">Log in</a></p>
+            <p class="account"> Already have an account? <a href="#">Log in</a></p>
             </form>
             
         </div>
-    </div>
-    <div>
-        <ul>
-            <li>
-                <label>Label 1</label>
-                <input type="text" />
-            </li>
-             <li>
-                <label>Label 2</label>
-                <input type="text" />
-            </li>
-             <li>
-                <label>Label 3</label>
-                <input type="text" />
-            </li>
-             <li>
-                <label>Label 4</label>
-                <input type="text" />
-            </li>
-        </ul>
     </div>
 </body>
 </html>

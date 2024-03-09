@@ -59,22 +59,19 @@ body {
     padding-top: 100px;
     flex-direction: column;
 }
-/* 
-ul{
-    width: 100%;
 
+button{
+    background-color: #596D48;
+    color: white;
+    width: 150px;
+    height: 35px;
+    margin: 20px 50px;
+    border-radius: 24px;
 }
-ul li{
-    width: 49%;
-    display: inline-block;
-
+.form{
+    padding: 20px;
+    line-height: 32px;
 }
-ul li > *{
-    width: 50%;
-}
-
- */
-
  ul {
     width: 100%;
 }
@@ -85,4 +82,27 @@ ul li {
 
 ul li > * {
     width: 100%;
+}
+
+input:focus{
+    outline-color: blue;
+}
+input:invalid{
+    border-color: red;
+}
+
+a:link{
+    color: darkgreen;
+}
+
+a{
+    text-decoration: none;
+}
+
+.account{
+    margin: 0px 50px;
+}
+
+.logo__text{
+    font-size:64px;
 }

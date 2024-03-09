@@ -7,11 +7,9 @@ loginform.addEventListener("submit", (e) => {
     let confirmation = document.querySelector("#confirmation");
 
     if (password.value !== confirmation.value){
-        console.log("passwords are not equal");
-        alert("Ensure passwords are the same!");
+        alert("Passwords are not the same!");
     }
     else{
-        console.log("Passwords are equal!");
         alert("Thank you for creating your account!");
     }
 })
